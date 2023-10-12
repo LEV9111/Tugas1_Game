@@ -1,0 +1,132 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        /*
+        Console.WriteLine ("Hello Mono World");
+        string divisi ="Game";
+        Console.WriteLine(divisi);
+        // Kata kunci var
+        var div="Game";
+        var nomor = 1;
+        Console.WriteLine(div);
+        Console.WriteLine(nomor);
+        // Kata kunci const
+        const float phi = 3.14f;
+        Console.WriteLine(phi);
+        // Tipe Data
+        // Integer(INT)
+        int angkaint= 081;
+        float berat = 5.667f;
+        double brt = 59.77777;
+        Console.WriteLine(angkaint);
+        Console.WriteLine(berat);
+        Console.WriteLine(brt);
+        // String
+        string dd = "AYo";
+        string nim = "A11.2022.14530";
+        Console.WriteLine(dd);
+        Console.WriteLine(nim);
+        // Backslash
+        string bulan = "Januari \t Februari \t Maret";
+        string hari = "Senin \rSelasa \rRabu";
+        Console.WriteLine(hari);
+        Console.WriteLine(bulan);
+        // Manipulasi string
+        // Uppercase dan Lowercase
+        string txt = "Ini adalah tulisan";
+        string txt1 = "Oke";
+        Console.WriteLine(txt.ToUpper());
+        Console.WriteLine(txt.ToLower());
+        // Hitung panjang string
+        Console.WriteLine(txt.Length);
+        // Menggabung string
+        Console.WriteLine("\rHai " + txt + txt1);
+        */
+        
+        // String Interpolation
+        /*
+        string firstName="Wahuy";
+        string lastName= "Nir";
+        Console.WriteLine($"Nama saya {firstName} {lastName}, salam kenal");
+        */
+        // Boolean
+        /*
+        bool jawab = true;
+        if (jawab == false){
+            Console.WriteLine("Jawaban Salah");
+        } else{
+            Console.WriteLine("Jawaban Benar");
+        }
+        */
+        // Konversi Float ke Int
+        /*
+        float dec = 1.5f;
+        int convert = (int)dec;
+        Console.WriteLine(convert);
+        */
+        // Konversi Number ke String
+        /*
+        int angka = 1;
+        float angka1 = 1.5f;
+        Console.WriteLine($"{angka.ToString()} + {angka1.ToString()}");
+        */
+        // Konversi String ke Int
+        /*
+        string pertama = "1";
+        string kedua = "2";
+        int sum = int.Parse(pertama) + int.Parse(kedua);
+        Console.WriteLine(sum);
+        */
+        // Operator Aritmatika
+        /*
+        var hasil = 1+3;
+        var hasil1 = 3-1;
+        var hasil2 = 1*3;
+        var hasil3 = 4/2;
+        var hasil4 = 5%2;
+        var hasil5 = -5;
+        Console.WriteLine(hasil);
+        Console.WriteLine(hasil1);
+        Console.WriteLine(hasil2);
+        Console.WriteLine(hasil3);
+        Console.WriteLine(hasil4);
+        Console.WriteLine(hasil5);
+        */
+        // Operator Penugasan
+        //Increment
+        /*
+        int a = 3;
+        Console.WriteLine(a);
+        Console.WriteLine(++a);
+        Console.WriteLine(a);
+        int b = 3;
+        Console.WriteLine(b);
+        Console.WriteLine(b++);
+        Console.WriteLine(b);
+        //Decrement
+        int c = 3;
+        Console.WriteLine(c);
+        Console.WriteLine(--c);
+        Console.WriteLine(c);
+        int d = 3;
+        Console.WriteLine(d);
+        Console.WriteLine(d--);
+        Console.WriteLine(d);
+        */
+        // Operator Perbandingan
+        // Operator Logika
+        // Array
+        /*
+        int[] number = new int[3];
+        number[0] = 10;
+        number[1] = 20;
+        number[2] = 30;
+        Console.WriteLine(number[0]);
+        Console.WriteLine(number[1]);
+        Console.WriteLine(number[2]);
+        */
+    }
+}
